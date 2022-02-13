@@ -12,3 +12,10 @@ b="vishnu"
 c="amruth"
 myorder= "my best friend is {},second my best friend is {},"
 print(myorder.format(a, b))
+#split concept to listing
+
+x="VISHNU IS TOPPER"
+Y="rakesh"
+Z="AMRUTH IS A BUSSINESS MAN LIKE MAHESH BABU"
+print(Z.lower())
+print(Y.upper())
