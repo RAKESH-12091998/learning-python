@@ -1,7 +1,14 @@
-if 5<2:
-    print("hello world")
-    
-#learning python
-a=12
-b=5
-print(a+b)
+# lower case to upper case or upper case to lower case and listing
+
+x="Hello World"
+print(x[:5])
+c="world is with corona"
+print(c[:-9])
+print(c.upper())
+
+#string concept
+a="rakesh"
+b="vishnu"
+c="amruth"
+myorder= "my best friend is {},second my best friend is {},"
+print(myorder.format(a, b))
