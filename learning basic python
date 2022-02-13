@@ -12,10 +12,18 @@ b="vishnu"
 c="amruth"
 myorder= "my best friend is {},second my best friend is {},"
 print(myorder.format(a, b))
-#split concept to listing
+#split concept to listing modificatin
 
 x="VISHNU IS TOPPER"
 Y="rakesh"
 Z="AMRUTH IS A BUSSINESS MAN LIKE MAHESH BABU"
 print(Z.lower())
-print(Y.upper())
+print(Y.upper())  
+#spilting strings
+
+l="lord shiva temple at srisalam"
+m="makka masid"
+c="church"
+print(l[2:13])
+print(c[-1])
+print(l[10:13])
