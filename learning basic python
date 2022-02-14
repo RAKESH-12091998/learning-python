@@ -118,3 +118,18 @@ list2=["spider man","the last ship","game of throwns","james bomd 007"]
 print(list2[2])
 list2="list"
 print(list)
+
+
+
+#using if statement else statement
+
+fruits = ["apple","banana","grape","kiwi","mango","popaya"]
+if "samosa" in fruits:
+    print("yes")
+else:
+    print("no")
+if "banana" in fruits:
+    print("oklllll")
+else:
+    print("amruth")
+
