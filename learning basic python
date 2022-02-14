@@ -27,3 +27,79 @@ c="church"
 print(l[2:13])
 print(c[-1])
 print(l[10:13])
+ 
+ if 5<2:
+    print("hello world")
+#learning python
+a=12
+b=5
+print(a+b)
+#variable
+first_name="shaik"
+last_name="fayaz"
+print(first_name+" "+last_name)
+first_name,last_name="shaik","fayaz"
+print(first_name+last_name)
+
+ #global variables
+x = "awesome"
+def myfunc():
+
+    global x
+    x='fayaz'
+    print("python is " + x)
+myfunc()
+print("python is " + x)
+
+
+
+
+# lower case to upper case or upper case to lower case and listing
+
+x="Hello World"
+print(x[:5])
+c="world is with corona"
+print(c[:-9])
+print(c.upper())
+
+#string concept
+a="rakesh"
+b="vishnu"
+c="amruth"
+tea="my best friend enemy  is {},second my best friend is {},"
+print(tea.format(a,b))
+
+#split concept to listing
+
+x="VISHNU IS TOPPER"
+Y="rakesh"
+Z="AMRUTH IS A BUSSINESS MAN LIKE MAHESH BABU"
+print(Z.lower())
+print(Y.upper())
+print(x.lower())
+#spilting strings
+
+l="lord shiva temple at srisalam"
+m="makka masid"
+c="church"
+print(l[2:13])
+print(c[-1])
+print(l[10:13])
+r="12"
+v="23"
+a="34"
+print(v[1],r[0])
+
+#lists concept@replacing strings
+
+list=["apple","banana","amma","nanna","brother","sis","friends"]
+print(list[4:])
+list[3]="ba"
+print(list)
+list[1]=("ab","bc","cd")
+print(list)
+print(list[-3])
+list2=["spider man","the last ship","game of throwns","james bomd 007"]
+print(list2[2])
+list2="list"
+print(list)
