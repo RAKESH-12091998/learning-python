@@ -33,6 +33,21 @@ print(l[10:13])
 #learning python
 a=12
 b=5
+
+listing length
+
+listone=["rakesh","bhanu","amma","nanna"]
+x = "bhanu"
+z= "amma"
+y = listone.index(z)
+
+print(y)
+
+mybooks=["math","telugu","eng","sci","social"]
+z = "sci"
+a = mybooks.index(z)
+print(a)
+
 print(a+b)
 #variable
 first_name="shaik"
