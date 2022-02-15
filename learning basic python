@@ -133,3 +133,42 @@ if "banana" in fruits:
 else:
     print("amruth")
 
+num1 = 15
+num2 = 12
+
+# Adding two nos
+sum = num1 + num2
+
+# printing values
+print(sum)
+#practice
+
+a="rakesh"
+b="vishnu"
+c="amruth"
+myorder= "my best friend is {},second my best friend is {},waste fellow {}"
+print(myorder.format(a,b,c))
+
+#practice
+
+num1 = 150
+num2 = 12
+
+# Adding two nos
+sum = num1 + num2
+
+# printing values
+print("Sum of {0} and {1} is {2}".format(num1, num2, sum))
+
+
+
+# Adding two numbers
+
+# by the concept 0f .format making tea
+
+milk =input(" ")
+powder =input(" ")
+sugar = input(" ")
+sum =float(milk) * float (powder) * float (sugar)
+
+print("the sum of {0} and {1} and {2} is {3}".format (milk, powder, sugar, sum))
