@@ -172,3 +172,24 @@ sugar = input(" ")
 sum =float(milk) * float (powder) * float (sugar)
 
 print("the sum of {0} and {1} and {2} is {3}".format (milk, powder, sugar, sum))
+
+
+# factorial with recurcivedef factorial(n):
+   return 1 if (n==1 or n==0) else n * factorial(n-1);
+n = 12;
+print("factorial of" ,n,"is",factorial(n))
+
+# factrorial with recurcive training
+
+def factorial(x):
+   return 1 if (x==1 or x==0) else x * factorial(x-1);
+x=12;
+print("factorial of" ,x,"is", factorial(x))
+#factorial
+def factorial(r):
+   return  10 if (r==1 or r==0) else r * factorial(r-1);
+r=1;
+print("factorial of", r,"is",r*factorial(r))
+
+
+
