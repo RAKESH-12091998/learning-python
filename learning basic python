@@ -192,5 +192,47 @@ def factorial(r):
 r=1;
 print("factorial of", r,"is",r*factorial(r))
 
+"""# factorial with recurcive factorial(n):
+return
+
+ 1 if (n==1 or n==0) else n*factorial(n-1);
+
+n = 12;
+print("factorial of" ,n,"is",factorial(n))"""
+
+
+# factrorial with recurcive training
+
+def factorial(x):
+   return 1 if (x==1 or x==0) else x * factorial(x-1);
+x=12;
+print("factorial of" ,x,"is", factorial(x))
+#factorial
+def factorial(r):
+   return 1  if (r==1 or r==0) else r * factorial(r-1);
+r=1;
+print("factorial of", r,"is",r*factorial(r))
+
+#list concept by usig looping starements
+
+list1=["dhoni","sachin","gambeer","bumrah","pandya"]
+list2=["warner","willamson","rasid","buvee","yuvaraj"]
+list1.remove(list1[0])
+print(list1)
+
+list1.extend(list2)
+print(list1)
+
+list2.append(list1)
+print(list2)
+
+list1.remove(list1[0])
+print(list1)
+
+newlist=[y for y in list1 if "d" in y]
+print(newlist)
+
+list1.pop(1)
+print(list1)
 
 
