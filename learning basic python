@@ -378,3 +378,17 @@ def rakesh_money(a,b,c):
     sa=amount-a
     print("rakesh is",sa)
 rakesh_money(10000,2,3)
+
+def rakesh_money(a,b,c):
+    amount=a*(pow((1+b/100),c))
+    sa=amount-a
+    print("rakesh is",sa)
+rakesh_money(10000,2,3)
+
+#area of circle
+
+def findarea(r):
+    PI=3.142
+    return PI * (r*r)
+print("area is " + str(findarea(2)))
+
