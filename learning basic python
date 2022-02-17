@@ -290,3 +290,91 @@ print(mi)
 mi.pop(0)
 print(mi)
 
+
+"""# list concept by the cricket teams
+srh=["warner","williamson","manish","buvaneshwar","rasid""nataraj"]
+mi=["rohith","ishan","surya","bumraiah","chahal","pandhya","pollard"]
+mi[2]="surya kumar yadhav"
+print(mi)
+srh.extend(mi)
+print(srh)
+srh[0]
+print(srh)
+list1=["dhoni","sachin","gambeer","bumrah","pandya"]
+list2=["warner","willamson","rasid","buvee","yuvaraj"]
+list1.remove(list1[0])
+print(list1)
+
+list1.extend(list2)
+print(list1)
+
+list2.append(list1)
+print(list2)
+srh.append(mi)
+print(srh)
+mi.remove(mi[3])
+print(mi)
+newlist=[y for y in mi if "t" in y]
+print(newlist)
+print(mi)
+mi.pop(0)
+print(mi)
+x = mi.index("chahal")
+print(x)
+
+# python sets concept in datatypes
+
+myset = {"bhanu","amma","nanna","rakesh",1,2,3,4,5}
+print(len(myset))
+print(type(myset))
+
+for x in myset:
+    print(x)
+myset.add("akka")
+print(myset)
+myset.remove("nanna")
+print(myset)
+
+#simple intrest
+
+def simple_intrest(p,t,r):
+
+    print("the price",p)
+    print("time",t)
+    print("rate of intrest",r)
+    si=(p*t*r)/100
+    print(si)
+    return si
+simple_intrest(10000,7,12)
+
+#practice simple intrest
+
+def simple_intrest(p,t,r):
+
+    print("price",p)
+    print("time",t)
+    print("rate",r)
+    total=(p*t*r)/100
+    print(total)
+    return total
+simple_intrest(10000,24,20)
+
+def compound_intrest(priniciple,time,rate):
+    amount = priniciple*(pow((1+rate/100),time))
+    ci=amount-priniciple
+    print("compound is", ci)
+compound_intrest(10000,2,3)
+
+#compound intrest
+
+def compound_intrest(p,t,r):
+    amount = p*(pow((1+r/100),t))
+    si = amount-p
+    print("compound is", si)
+compound_intrest(10000,2,3)"""
+#practice more
+def rakesh_money(a,b,c):
+    amount=a*(pow((1+b/100),c))
+    sa=amount-a
+    print("rakesh is",sa)
+rakesh_money(10000,2,3)
