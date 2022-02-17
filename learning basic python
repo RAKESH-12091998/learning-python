@@ -236,3 +236,57 @@ list1.pop(1)
 print(list1)
 
 
+# list concept by the cricket teams
+srh=["warner","williamson","manish","buvaneshwar","rasid""nataraj"]
+mi=["rohith","ishan","surya","bumraiah","chahal","pandhya","pollard"]
+srh.extend(mi)
+print(srh)
+srh[0]
+print(srh)
+list1=["dhoni","sachin","gambeer","bumrah","pandya"]
+list2=["warner","willamson","rasid","buvee","yuvaraj"]
+list1.remove(list1[0])
+print(list1)
+
+list1.extend(list2)
+print(list1)
+
+list2.append(list1)
+print(list2)
+srh.append(mi)
+print(srh)
+mi.remove(mi[3])
+print(mi)
+newlist=[y for y in mi if "t" in y]
+print(newlist)
+print(mi)
+mi.pop(0)
+print(mi)
+
+# list concept by the cricket teams
+srh=["warner","williamson","manish","buvaneshwar","rasid""nataraj"]
+mi=["rohith","ishan","surya","bumraiah","chahal","pandhya","pollard"]
+srh.extend(mi)
+print(srh)
+srh[0]
+print(srh)
+list1=["dhoni","sachin","gambeer","bumrah","pandya"]
+list2=["warner","willamson","rasid","buvee","yuvaraj"]
+list1.remove(list1[0])
+print(list1)
+
+list1.extend(list2)
+print(list1)
+
+list2.append(list1)
+print(list2)
+srh.append(mi)
+print(srh)
+mi.remove(mi[3])
+print(mi)
+newlist=[y for y in mi if "t" in y]
+print(newlist)
+print(mi)
+mi.pop(0)
+print(mi)
+
