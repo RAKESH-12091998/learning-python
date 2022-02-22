@@ -392,3 +392,45 @@ def findarea(r):
     return PI * (r*r)
 print("area is " + str(findarea(2)))
 
+# if staments
+a = 234
+b = 235
+if a > b:
+	print("please print a is bigger")
+
+elif b > a:
+    print("b is bigger")
+else:
+	print("both are equal")
+
+# practicing
+
+r = 23
+s = 24
+
+if r > s:
+	print('r is grater than s')
+elif r< s:
+	print("r is lesss than s")
+else:
+	print("both are equal")
+if r+s == 475:
+	print("the value")
+elif r+s == 47:
+	print("wrong")
+else:
+	print("sravan is waste fellow")
+if r-s == 1:
+	print("vamshi")
+elif r-s == -1:
+	print("sravan")
+else:
+	print("king")
+if r*s == 200:
+	print("you need to learn maths")
+elif r*s == 552:
+	print("you are an expert")
+else:
+	print("9949")
+
+
