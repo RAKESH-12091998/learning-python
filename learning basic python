@@ -434,3 +434,18 @@ else:
 	print("9949")
 
 
+
+# continue loop using
+i=200
+while i>100:
+    i-=20
+    if i==160:
+        continue
+    print(i)
+# break loop
+i = 12
+while i<24:
+    i+=2
+    if i==20:
+        break
+    print(i)
