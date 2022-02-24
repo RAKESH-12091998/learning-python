@@ -449,3 +449,77 @@ while i<24:
     if i==20:
         break
     print(i)
+   #for loops
+    list = ["warner","wilamson","manish","samad"]
+   for srh in list:
+    if srh=="manish":
+        break
+    print(srh)
+#for loops by using
+list="sravan","avasaram","vamshi","thilak","rakesh","mahesh"
+for srh in list:
+    if srh=="vamshi":
+        break
+    print(srh)
+
+list2="surendhar","ramesh babu","kurmaiah","bhargav"
+print(list2,sep="->")
+
+#functions
+def mylist():
+    family=["amma","nanna","thammudu","akka"]
+    family_upper = family.upper[]
+
+    for x in range(len(family)):
+
+        family[x]=family[x].upper()
+
+        print(family[x])
+
+
+mylist()
+
+def my_function():
+ string_list = ["A", "b", "c"]
+
+ for i in range(len(string_list)):
+    string_list[i] = string_list[i].upper()
+
+ print(string_list)
+
+
+my_function()
+# update list in lower to upper case in functions
+
+def myfamily():
+    family=["amma","nanna","bro","akka"]
+    family.remove("akka")
+    print(family)
+
+myfamily()
+
+#functions update lower to upper
+
+def myfriends():
+    list=["amruth","avasaram","sree","sravan","swetha"]
+    for x in range(len(list)):
+        list[x]=list[x].upper()
+
+    print(list)
+myfriends()
+def myfriends():
+    list="banana"
+    print(list.replace('b','B'))
+myfriends()
+
+#replacing strings in list concept by functions
+
+def myfunction():
+    myfriends="amruth,avasaram,sree,sravan,pitte,"
+    print(myfriends.replace('avasaram', 'vishnu'))
+
+myfunction()
+
+
+
+
