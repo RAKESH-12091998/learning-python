@@ -523,3 +523,72 @@ myfunction()
 
 
 
+class laptop:
+    def laptop(self):
+        if self.ram==4:
+            return "its good"
+        else:
+            return "its bad"
+laptop1=laptop()
+laptop2=laptop()
+laptop1.ram=4
+laptop1.battery=4500
+laptop2.ram=2
+laptop2.battery=2000
+print(laptop2.ram)
+print(laptop1.laptop())
+print(laptop2.laptop())
+
+#practicing
+class zphs:
+    def ssc(self):
+        if self.height>=5.4:
+            return "10nth"
+        else:
+            return "9nth"
+
+ssc1=zphs()
+nine= zphs()
+ssc1.students=46
+nine.students=42
+ssc1.height=5.3
+print(ssc1.ssc())
+
+# oops concept
+class mobile():
+    def camera(self):
+        if self.lence==10:
+            print("mi")
+
+        elif self.lence==3:
+            print("vi")
+
+        else:
+            print("no")
+
+mi=mobile()
+vi=mobile()
+mi.lence=12
+vi.lence=1
+print(mi.camera())
+
+class building:
+    def coaching(self):
+        if self.laptops==10:
+            print("coaching is python")
+        elif self.students==5:
+            print("coaching is both cad and python")
+        else:
+            print("cad coaching")
+room1=building()
+room2=building()
+room1.laptops=5
+room1.students=5
+room2.drawing="drawing table"
+room2.students=10
+print(room1.laptops)
+print(room1.students)
+print(room2.drawing)
+print(room2.students)
+print(room1.coaching())
+
