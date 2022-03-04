@@ -592,3 +592,12 @@ print(room2.drawing)
 print(room2.students)
 print(room1.coaching())
 
+# string exeamples
+def RAKESH(s):
+    return s==s[::-1]
+s="malayala"
+if RAKESH(s):print("true")
+else:print("FALSE")
+
+RAKESH(s)
+
