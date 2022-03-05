@@ -601,3 +601,34 @@ else:print("FALSE")
 
 RAKESH(s)
 
+a= 10
+b= 25
+for x in range(a,b+1):
+    if x>1:
+        for i in range(2,x):
+            if x%i==0:
+                break
+        else:
+            print(x)
+	    
+#lists programming practice for swaping
+apple=[1,2,3,4,5,6,7,8]
+b=apple[0]
+apple[0]=apple[-1]
+apple[-1]=b
+print(apple)
+#use of * operand
+
+list=[22,23,34,45,56]
+a,b,*c=list
+print(a)
+print(b)
+print(c)
+list=[1,2,3,4]
+star,*galaxy,moon=list
+list=[moon,star,*galaxy]
+print(list)
+
+
+
+
